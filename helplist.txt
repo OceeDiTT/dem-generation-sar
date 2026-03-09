@@ -8,5 +8,6 @@ Images:
 
 Study Area:
 
-Delamar Mountains Wilderness
+Delamar Mountains Wilderness, Nevada, US.
+
 {"type":"Polygon","coordinates":[[[-115.025559,37.218375],[-114.848445,37.330899],[-114.797645,37.274112],[-114.742726,37.151655],[-114.87453,36.985143],[-114.969265,36.992819],[-115.025559,37.218375]]]}
