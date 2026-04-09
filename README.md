@@ -56,7 +56,7 @@ The perpendicular baseline must be greater than 150 m to ensure sufficient inter
 
 
 ## Challenges
-- High computational load required for the SNAPHU Unwrapping thus using 4x4 tilling resulted to small bounding line in the unwrapped interferogram.
+- High computational load required for the SNAPHU Unwrapping. Thus using 4x4 tilling resulted to small bounding line in the unwrapped interferogram.
 
 
 ## Tools
