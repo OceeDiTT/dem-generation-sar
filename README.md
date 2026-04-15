@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Project Objective](#-project-objective)
@@ -33,7 +33,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project demonstrates the generation of a **Digital Elevation Model (DEM)** from **Sentinel-1 Synthetic Aperture Radar (SAR)** imagery using **Interferometric SAR (InSAR)** processing techniques in **ESA SNAP**.
 
@@ -41,22 +41,22 @@ By exploiting phase differences between two SAR acquisitions, terrain elevation 
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To generate an accurate, terrain-corrected DEM from Sentinel-1 SLC imagery through interferometric processing and phase unwrapping while minimizing coherence loss and atmospheric distortions.
 
 ---
 
-## 🗺️ Study Area
+## Study Area
 
 ### **Delamar Mountain Wilderness, Nevada, USA**
 
 Nevada was selected due to its favorable environmental conditions for InSAR processing:
 
-- ☀️ **Arid desert climate**
-- 🌵 **Sparse vegetation cover**
-- 💧 **Minimal surface water bodies**
-- 🌬️ **Low relative humidity (~30–38%)**
+- **Arid desert climate**
+- **Sparse vegetation cover**
+- **Minimal surface water bodies**
+- **Low relative humidity (~30–38%)**
 
 These conditions improve **interferometric coherence** and reduce atmospheric interference.
 
@@ -71,7 +71,7 @@ These conditions improve **interferometric coherence** and reduce atmospheric in
 
 ---
 
-## 🌤️ Data Selection Strategy
+## Data Selection Strategy
 
 DEM generation using InSAR requires:
 
@@ -90,7 +90,7 @@ To reduce atmospheric distortion, imagery was selected from Nevada’s dry seaso
 
 ---
 
-## 🛰️ Data Source & Acquisition
+## Data Source & Acquisition
 
 SAR imagery was obtained from the **Copernicus Programme**.
 
@@ -103,11 +103,11 @@ SAR imagery was obtained from the **Copernicus Programme**.
 | Acquisition Mode | IW (Interferometric Wide Swath) |
 | Download Portal | Copernicus Data Hub |
 
-> 📂 Additional image IDs and study boundaries are available in the `helplist.txt` file.
+> Additional image IDs and study boundaries are available in the `helplist.txt` file.
 
 ---
 
-## 📏 Image Selection Criteria
+## Image Selection Criteria
 
 To ensure reliable interferometric DEM generation:
 
@@ -128,7 +128,7 @@ To ensure sufficient topographic sensitivity:
 
 ---
 
-## 💻 Required Software
+## Required Software
 
 | Software | Purpose |
 |--------|--------|
@@ -138,7 +138,7 @@ To ensure sufficient topographic sensitivity:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### **1. Preprocessing**
 - Update and install SNAP plugins  
@@ -187,7 +187,7 @@ To ensure sufficient topographic sensitivity:
 
 ---
 
-## 🔄 Workflow Summary
+## Workflow Summary
 
 ```text
 Import Data
@@ -221,7 +221,7 @@ Export DEM
 
 ---
 
-## 📊 Results
+## Results
 
 ### Generated DEM Preview
 
@@ -233,7 +233,7 @@ Export DEM
 
 ---
 
-## ⚠️ Challenges Encountered
+## Challenges Encountered
 
 ### **High Computational Load**
 SNAPHU phase unwrapping was computationally expensive.
@@ -246,7 +246,7 @@ SNAPHU phase unwrapping was computationally expensive.
 
 ---
 
-## 🔁 Reproducibility Notes
+## Reproducibility Notes
 
 To reproduce this workflow accurately:
 
@@ -259,7 +259,7 @@ To reproduce this workflow accurately:
 
 ---
 
-## 🚀 Improvements to DEM
+## Improvements to DEM
 
 Potential enhancements to improve DEM quality:
 
@@ -268,14 +268,6 @@ Potential enhancements to improve DEM quality:
 - [ ] Compare results using varied SNAPHU tiling configurations  
 - [ ] Integrate Ground Control Points (GCPs) for validation  
 - [ ] Quantitatively assess DEM accuracy using RMSE  
-
----
-
-## 📚 References
-
-- Sentinel-1 User Guide  
-- ESA SNAP Documentation  
-- SNAPHU Documentation  
 
 ---
 
