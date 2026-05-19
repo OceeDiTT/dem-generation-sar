@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 DEM Generation from InSAR Using Sentinel-1 & ESA SNAP
+# DEM Generation from InSAR Using Sentinel-1 & ESA SNAP
 
 ### *Interferometric Synthetic Aperture Radar (InSAR)-Based Terrain Reconstruction Workflow*
 
